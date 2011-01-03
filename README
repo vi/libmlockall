@@ -7,3 +7,5 @@ Usage: LD_PRELOAD=/path/to/libmlockall.so your_program
 Example: LD_PRELOAD=/usr/lib/libmlockall.so schedtool -R -p 4 -e mplayer -cache 300000 /tmp/dd.mp3
 
 /usr/bin/mlockall utility automatically sets up LD_PRELOAD.
+
+Author page: http://vi-server.org/
